@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 
 app = Flask(__name__)   #to initiate flask
-@app.route('/', methods={"GET", "POST"})   #to send data from backend to frontend
+@app.route("/QuickNews", methods={"GET", "POST"})   #to send data from backend to frontend
 def index():                #flask function
 
     url="https://www.businesstoday.in/technology/news"
